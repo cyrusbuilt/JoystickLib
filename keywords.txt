@@ -1,0 +1,60 @@
+#######################################
+# Syntax Coloring Map for JoystickLib
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Joystick	KEYWORD1
+JoystickStates		KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+setJoystickPins	KEYWORD2
+setThreshold	KEYWORD2
+calibrate	KEYWORD2
+loop	KEYWORD2
+isCenter	KEYWORD2
+isUp	KEYWORD2
+isRightUp	KEYWORD2
+isRight	KEYWORD2
+isRightDown	KEYWORD2
+isDown	KEYWORD2
+isLeftDown	KEYWORD2
+isLeft	KEYWORD2
+isLeftUp	KEYWORD2
+isNotCenter	KEYWORD2
+getX	KEYWORD2
+getY	KEYWORD2
+onCenter	KEYWORD2
+onUp	KEYWORD2
+onRightUp	KEYWORD2
+onRight	KEYWORD2
+onRightDown	KEYWORD2
+onDown	KEYWORD2
+onLeftDown	KEYWORD2
+onLeft	KEYWORD2
+onLeftUp	KEYWORD2
+onNotCenter	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+JL_CENTER_TOLERANCE	LITERAL1
+JL_DEFAULT_X_POS_LOW	LITERAL1
+JL_DEFAULT_X_POS_HIGH	LITERAL1
+JL_DEFAULT_Y_POS_LOW	LITERAL1
+JL_DEFAULT_Y_POS_HIGH	LITERAL1
+CENTER	LITERAL1
+UP	LITERAL1
+RIGHT_UP	LITERAL1
+RIGHT	LITERAL1
+RIGHT_DOWN	LITERAL1
+DOWN	LITERAL1
+LEFT_DOWN	LITERAL1
+LEFT	LITERAL1
+LEFT_UP	LITERAL1
