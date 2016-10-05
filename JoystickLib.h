@@ -257,14 +257,14 @@ private:
 
 	// Joystick callbacks.
 	void (*centerCallback)(void);
-    void (*upCallback)(void);
-    void (*rightUpCallback)(void);
-    void (*rightCallback)(void);
-    void (*rightDownCallback)(void);
-    void (*downCallback)(void);
-    void (*leftDownCallback)(void);
-    void (*leftCallback)(void);
-    void (*leftUpCallback)(void);
+  void (*upCallback)(void);
+  void (*rightUpCallback)(void);
+  void (*rightCallback)(void);
+  void (*rightDownCallback)(void);
+  void (*downCallback)(void);
+  void (*leftDownCallback)(void);
+  void (*leftCallback)(void);
+  void (*leftUpCallback)(void);
 	void (*notCenterCallback)(void);
 };
 

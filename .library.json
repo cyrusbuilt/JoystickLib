@@ -1,0 +1,27 @@
+{
+  "name": "JoystickLib",
+  "repository": {
+    "url": "https://github.com/cyrusbuilt/JoystickLib.git",
+    "type": "git"
+  },
+  "platforms": [
+    "arduino"
+  ],
+  "version": "1.0.0",
+  "authors": [
+    {
+      "url": "http://cyrusbuilt.net/",
+      "maintainer": true,
+      "email": "cyrusbuilt@gmail.com",
+      "name": "Cyrus Brunner"
+    }
+  ],
+  "keywords": [
+    "joystick",
+    "analog",
+    "game",
+    "control"
+  ],
+  "id": null,
+  "description": "A library providing an interface for reading a 2-axis analog joystick."
+}

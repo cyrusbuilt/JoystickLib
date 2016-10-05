@@ -32,27 +32,28 @@ occurs).
 Copy the entire folder containing this library to the "libraries" folder
 of your Arduino installation or sketchbook. Then include JoystickLib.h in
 your sketch. See example below:
+```cpp
+#include "Arduino.h"
+#include "JoystickLib.h"
 
-	#include "Arduino.h"
-	#include "JoystickLib.h"
+// Create joystick instance attached to pins A0 (X-axis) and A1
+// Y-axis. This will also set the default threshold values.
+Joystick stick(A0, A1);
 
-	// Create joystick instance attached to pins A0 (X-axis) and A1
-	// Y-axis. This will also set the default threshold values.
-	Joystick stick(A0, A1);
+void setup() {
+	Serial.begin(9600);
+	stick.calibrate();
+}
 
-	void setup() {
-		Serial.begin(9600);
-		stick.calibrate();
-	}
+void loop() {
+	stick.loop();
 
-	void loop() {
-		stick.loop();
-		
-		Serial.print("X = ");
-		Serial.println(stick.getX());
+	Serial.print("X = ");
+	Serial.println(stick.getX());
 
-		Serial.print("Y = ");
-		Serial.println(stick.getY());
+	Serial.print("Y = ");
+	Serial.println(stick.getY());
 
-		delay(300);
-	}
+	delay(300);
+}
+```
