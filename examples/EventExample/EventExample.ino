@@ -66,9 +66,9 @@ void setup() {
 	Serial.println();
 	Serial.print(F("Calibrating.... "));
 	stick.calibrate();
-	Serial.println(F("Done."))
+	Serial.println(F("Done."));
 	Serial.println(F("Calibrated zero position: "));
-	printPosition()
+	printPosition();
 
 	// Wire up event handlers.
 	stick.onUp(onUpHandler);
