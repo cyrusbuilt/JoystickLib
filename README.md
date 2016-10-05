@@ -1,5 +1,5 @@
 ==========================================================================
-JoystickLib :: Joystick library for Arduino
+# JoystickLib :: Joystick library for Arduino
 [![Build Status](https://travis-ci.org/cyrusbuilt/JoystickLib.svg?branch=master)](https://travis-ci.org/cyrusbuilt/JoystickLib)
 ==========================================================================
 
