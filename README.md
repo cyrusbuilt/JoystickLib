@@ -58,3 +58,12 @@ void loop() {
 	delay(300);
 }
 ```
+
+## How to install
+
+If you are using PlatformIO (http://platformio.org/), you can simply run the following command:
+```
+platformio lib install joysticklib
+```
+
+Otherwise, download the zip from https://github.com/cyrusbuilt/ArduinoHAF/archive/master.zip then extract its contents to a folder called "ArduinoHAF" and then move that folder to your libraries folder.
