@@ -7,7 +7,7 @@
 #######################################
 
 Joystick	KEYWORD1
-JoystickStates		KEYWORD1
+JoystickStates	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
