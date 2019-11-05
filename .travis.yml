@@ -14,6 +14,8 @@ env:
 
 install:
   - pip install -U platformio
+  - platformio update
+  - platformio lib -g update
 
 script:
   - platformio ci --lib="." --board=uno --board=megaatmega1280 --board=megaatmega2560 --board=micro --board=leonardo
