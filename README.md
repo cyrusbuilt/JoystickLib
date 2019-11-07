@@ -1,7 +1,6 @@
-==========================================================================
 # JoystickLib :: Joystick library for Arduino
+
 [![Build Status](https://travis-ci.org/cyrusbuilt/JoystickLib.svg?branch=master)](https://travis-ci.org/cyrusbuilt/JoystickLib)
-==========================================================================
 
 ## LICENSE
 
@@ -66,4 +65,4 @@ If you are using PlatformIO (http://platformio.org/), you can simply run the fol
 platformio lib install joysticklib
 ```
 
-Otherwise, download the zip from https://github.com/cyrusbuilt/ArduinoHAF/archive/master.zip then extract its contents to a folder called "ArduinoHAF" and then move that folder to your libraries folder.
+Otherwise, download the zip from https://github.com/cyrusbuilt/JoystickLib/archive/master.zip then extract its contents to a folder called "ArduinoHAF" and then move that folder to your libraries folder.
