@@ -1,6 +1,6 @@
 # JoystickLib :: Joystick library for Arduino
 
-[![Build Status](https://travis-ci.org/cyrusbuilt/JoystickLib.svg?branch=master)](https://travis-ci.org/cyrusbuilt/JoystickLib)
+![Build Status](https://github.com/cyrusbuilt/JoystickLib/actions/workflows/ci.yml/badge.svg)
 
 ## LICENSE
 
