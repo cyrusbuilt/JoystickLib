@@ -3,7 +3,7 @@
 	Basic joystick event example
  */
 
-#include "Arduino.h"
+#include <Arduino.h>
 #include "JoystickLib.h"
 
 Joystick stick(A0, A1);

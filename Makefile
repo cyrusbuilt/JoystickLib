@@ -4,7 +4,7 @@ DIR           := $(PWD)/examples
 CRITERIA      := \( -name "*.ino" -o -name "*.pde" \)
 EACH_EXAMPLE  := $(FIND) $(DIR) $(CRITERIA) -exec
 BUILD         := pio ci --verbose
-LIB           := "."
+LIB           := "./src"
 
 #--------------------------------------------------------------------- targets
 clean_docs:
@@ -15,7 +15,7 @@ docs:
 	@open docs/html/index.html
 
 # update .travis.yml if target boards added
-all: uno megaatmega1280 megaatmega2560 micro leonardo huzzah
+all: uno megaatmega1280 megaatmega2560 micro leonardo
 
 uno megaatmega1280 megaatmega2560 micro leonardo huzzah:
 	PLATFORMIO_BOARD=$@ $(MAKE) build
@@ -23,4 +23,4 @@ uno megaatmega1280 megaatmega2560 micro leonardo huzzah:
 build:
 	$(EACH_EXAMPLE) $(BUILD) --board=$(PLATFORMIO_BOARD) --lib=$(LIB) {} \;
 
-.PHONY: all uno megaatmega1280 megaatmega2560 micro leonardo huzzah build
+.PHONY: all uno megaatmega1280 megaatmega2560 micro leonardo build
