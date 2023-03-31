@@ -20,11 +20,7 @@
 #ifndef JoystickLib_h
 #define JoystickLib_h
 
-#if ARDUINO >= 100
-    #include <Arduino.h>
-#else
-    #include <WProgram.h>
-#endif
+#include <Arduino.h>
 
 #define JL_CENTER_TOLERANCE 5
 #define JL_DEFAULT_X_POS_LOW 510
@@ -257,14 +253,14 @@ private:
 
 	// Joystick callbacks.
 	void (*centerCallback)(void);
-  void (*upCallback)(void);
-  void (*rightUpCallback)(void);
-  void (*rightCallback)(void);
-  void (*rightDownCallback)(void);
-  void (*downCallback)(void);
-  void (*leftDownCallback)(void);
-  void (*leftCallback)(void);
-  void (*leftUpCallback)(void);
+  	void (*upCallback)(void);
+  	void (*rightUpCallback)(void);
+  	void (*rightCallback)(void);
+  	void (*rightDownCallback)(void);
+  	void (*downCallback)(void);
+  	void (*leftDownCallback)(void);
+  	void (*leftCallback)(void);
+  	void (*leftUpCallback)(void);
 	void (*notCenterCallback)(void);
 };
 
