@@ -1,6 +1,6 @@
 # JoystickLib :: Joystick library for Arduino
 
-![Build Status](https://github.com/cyrusbuilt/JoystickLib/actions/workflows/ci.yml/badge.svg)
+[![Build Status](https://github.com/cyrusbuilt/JoystickLib/actions/workflows/ci.yml/badge.svg)](https://github.com/cyrusbuilt/JoystickLib/actions?query=workflow%3APlatformIO)
 
 ## LICENSE
 

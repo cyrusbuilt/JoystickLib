@@ -18,7 +18,6 @@
 */
 
 #include "JoystickLib.h"
-#include "Arduino.h"
 
 Joystick::Joystick() {
 	this->setJoystickPins(A0, A1);
